@@ -13,8 +13,14 @@
   }
 }
 
+.form{
+  margin-top: 100px;
+  width: 300px;
+  height: 500px;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #EAEAEA;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
