@@ -69,10 +69,6 @@ export default class MyButtons extends Component {
         return new Promise((resolve) => setTimeout(resolve, 2000));
     }
 
-    buttonModal_Click() {
-
-    }
-
     btnClose_Click = () => this.setState(state => ({ show: false}));
 
     buttonModal_Click = () => this.setState(state => ({ show: true}));
