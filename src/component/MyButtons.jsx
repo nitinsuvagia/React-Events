@@ -11,9 +11,6 @@ export default class MyButtons extends Component {
         this.buttonModal_Click = this.buttonModal_Click.bind(this);
     }
 
-    btnClose_Click = () => this.setState(state => ({ show: false}));
-    buttonModal_Click = () => this.setState(state => ({ show: true}));
-
     render() {
         return (
             <div className="form">
@@ -75,4 +72,9 @@ export default class MyButtons extends Component {
     buttonModal_Click() {
 
     }
+
+    btnClose_Click = () => this.setState(state => ({ show: false}));
+
+    buttonModal_Click = () => this.setState(state => ({ show: true}));
+
 }
