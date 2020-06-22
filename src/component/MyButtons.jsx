@@ -25,7 +25,7 @@ export default class MyButtons extends Component {
                     {this.state.isLoading?"Loading...":"Click 2 Load"}
                 </Button>
                 
-                <Button variant="outline-success" size="lg" block onClick={this.buttonModal_Click}>
+                <Button variant="success" size="lg" block onClick={this.buttonModal_Click}>
                     Open Modal Popup
                 </Button>
 
@@ -72,5 +72,6 @@ export default class MyButtons extends Component {
     btnClose_Click = () => this.setState(state => ({ show: false}));
 
     buttonModal_Click = () => this.setState(state => ({ show: true}));
+
 
 }
